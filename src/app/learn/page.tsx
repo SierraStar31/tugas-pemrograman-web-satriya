@@ -1,9 +1,9 @@
 export default function Learn() {
   // Function dari JS
   return (
-    <div className="bg-white h-screen flex text-blue-950 flex gap-4 items-center justify-center">
+    <div className="bg-white h-screen flex text-blue-950 gap-4 items-center justify-center">
       <div className="bg-purple-300 h-72 w-96 p-8 flex flex-col justify-between rounded-2xl">
-        <div className=" flex items-center gap-4">
+        <div className="flex items-center gap-4">
           <img src={"/palette.svg"} alt=" Icon Palette" />
           <p> Design </p>
         </div>
@@ -14,7 +14,7 @@ export default function Learn() {
       </div>
 
       <div className="bg-orange-300 h-72 w-96 p-8 flex flex-col justify-between rounded-2xl">
-        <div className=" flex items-center gap-4">
+        <div className="flex items-center gap-4">
           <img src={"/palette.svg"} alt=" Icon Palette" />
           <p> Python </p>
         </div>
