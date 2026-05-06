@@ -1,4 +1,4 @@
-export default function task2() {
+export default function Task2() {
   return (
     <div className="bg-white h-screen flex flex-col text-blue-950 gap-4 items-center justify-center relative">
       <div className="absolute top-8 left-8">
@@ -6,7 +6,9 @@ export default function task2() {
       </div>
 
       <div>
-        <p className="absolute bottom-8 right-8  text-gray-500 text-2xl font-bold"> Day 020/365 </p>
+        <p className="absolute bottom-8 right-8  text-gray-500 text-2xl font-bold">
+          Day 020/365
+        </p>
       </div>
 
       <div className="flex gap-4 w-295">
@@ -52,7 +54,10 @@ export default function task2() {
             <img src={"star.svg"} alt=" Icon Star" />
           </div>
           <div>
-            <h1 className="text-4xl font-bold"> DALL. E 2, Midjourney, Stable Diffusion </h1>
+            <h1 className="text-4xl font-bold">
+              {" "}
+              DALL. E 2, Midjourney, Stable Diffusion{" "}
+            </h1>
             <div className="flex items-center justify-between">
               <p> in 5 days </p>
               <div className="flex justify-end -space-x-3">
